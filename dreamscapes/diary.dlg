@@ -1,0 +1,179 @@
+namespace = "GZDoom";
+
+conversation {
+	id = 1;
+	actor = "Chaser";
+	class = "DSConversationMenu";
+	
+	page {
+		name = "$TXT_DIARY";
+		dialog = "$TXT_DIALOG";
+		goodbye = "$TXT_CLOSE";
+		
+		choice {
+			text = "$MSG_LOG_TITLE_1";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 1;
+		}
+
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "CrescentShard";
+				amount = 1;
+			}
+		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_2";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 2;
+			require {
+				item = "CrescentShard";
+				amount = 1;
+			}
+		}
+
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "LightningShard";
+				amount = 1;
+			}
+		}
+
+		choice {
+			text = "$MSG_LOG_TITLE_3";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 3;
+			require {
+				item = "LightningShard";
+				amount = 1;
+			}
+		}
+		
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "MeteorShard";
+				amount = 1;
+			}
+		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_4";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 4;
+			require {
+				item = "MeteorShard";
+				amount = 1;
+			}
+		}
+		
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "CresBoltFlud";
+				amount = 1;
+			}
+		}
+
+		choice {
+			text = "$MSG_LOG_TITLE_5";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 5;
+			require {
+				item = "CresBoltFlud";
+				amount = 1;
+			}
+		}
+		
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "StarShard";
+				amount = 1;
+			}
+		}
+
+		choice {
+			text = "$MSG_LOG_TITLE_6";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 6;
+			require {
+				item = "StarShard";
+				amount = 1;
+			}
+		}
+				
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "FlowShard";
+				amount = 1;
+			}
+		}
+
+		choice {
+			text = "$MSG_LOG_TITLE_7";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 7;
+			require {
+				item = "FlowShard";
+				amount = 1;
+			}
+		}
+		
+		/*choice {
+			text = "===>";
+			nextpage = 2;
+		}*/
+	}
+	
+	page {
+		name = "$TXT_DIARY";
+		dialog = "$TXT_DIALOG";
+		goodbye = "$TXT_CLOSE";
+		
+		choice {
+			text = "<===";
+			nextpage = 1;
+		}
+		
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "ShardCount";
+				amount = 7;
+			}
+		}
+	}
+}

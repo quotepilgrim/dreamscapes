@@ -1,0 +1,94 @@
+#library "ds_scripts"
+#import "zcommon.bcs"
+#import "ds_defs.bcs"
+
+script SHARD_PICKUP {
+	if (!CheckEventFlag(GOT_SHARD)) {
+		SetEventFlag(GOT_SHARD);
+		SetLineSpecial(277, Teleport_NewMap, 1, 0, 0);
+	}
+	if (!CheckInventory("CresBoltFlud") &&
+		ACS_NamedLockedExecute("test_lock", 0, 0, 0, 3)) {
+		GiveInventory("CresBoltFlud", 1);
+	}
+	if (!CheckEventFlag(GOT_NEXUS_ITEM) && CheckInventory("StarShard")) {
+		GiveInventory("ToNexus", 1);
+		SetWeapon("ToNexus");
+	}
+	GiveInventory("ShardCount", 1);
+}
+
+script "give_shards" (int tics) {
+	foreach (let str shard; SHARDS) {
+		GiveInventory(shard, 1);
+		ACS_ExecuteAlways(SHARD_PICKUP, 0);
+		delay(tics);
+	}
+}
+
+script "test_lock" {
+// this script doesn't and isn't meant to do anything
+}
+
+script "help" {
+	if (StrParam(l:"TXT_CLOSE") == "Close") {
+		SetFont("help_en");
+	} else {
+		SetFont("help_pt");
+	};
+	SetHudSize(1440, 1080, TRUE);
+	HudMessage(s:"A"; HUDMSG_PLAIN, 1, 0, 720.0, 540.0, 3.0);
+}
+
+script "wake_up" {
+	SetWeapon("Idle");
+	Delay(1);
+	if (StrParam(n:PRINTNAME_LEVEL) == "ROOM1") {
+		print(l:"MSG_NOT_DREAMING");
+		terminate;
+	}
+	Teleport_NewMap(1, 0, 0);
+}
+
+script "to_nexus" {
+	SetWeapon("Idle");
+	Delay(1);
+	if (!CheckEventFlag(GOT_NEXUS_ITEM)) {
+		SetEventFlag(GOT_NEXUS_ITEM);
+		terminate;
+	}
+	str level_name = StrParam(n:PRINTNAME_LEVEL);
+	if (level_name == "NEXUS") {
+		print(l:"MSG_AT_NEXUS");
+		terminate;
+	}
+	if (level_name == "ROOM1") {
+		print(l:"MSG_NOT_DREAMING");
+		terminate;
+	}
+	Teleport_NewMap(9, 0, 0);
+}
+
+script "raise_nexus_door" (int tag) {
+	int speed = 32;
+	fixed scrollspeed = FixedDiv((speed << 16), 8.0);
+	int amount = 152;
+
+	Scroll_Wall(tag, 0.0, scrollspeed, 0, 2);
+	Floor_RaiseByValue(tag, speed, amount);
+	SoundSequenceOnActor(tag,"DoorOpenNormal");
+	
+	TagWait(tag);
+	Scroll_Wall(tag, 0.0, 0.0, 0, 2);
+	
+	Delay(140);
+	Scroll_Wall(tag, 0.0, -scrollspeed, 0, 2);
+	Floor_LowerByValue(tag, speed, amount);
+	SoundSequenceOnActor(tag,"DoorCloseNormal");
+	
+	TagWait(tag);
+	Scroll_Wall(tag, 0.0, 0.0, 0, 2);
+}
+
+
+

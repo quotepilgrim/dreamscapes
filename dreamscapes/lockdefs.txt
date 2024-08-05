@@ -1,0 +1,115 @@
+ClearLocks
+
+Lock 1 {
+	CrescentShard
+	StarShard
+	LightningShard
+	MeteorShard
+	EmberShard
+	FlowShard
+	FloodShard
+	CrystalShard
+	ChaosShard
+	VoidShard
+	GravityShard
+	MatterShard
+	SoulShard
+	ShellShard
+	Message "$MSG_ALL_SHARDS"
+	Mapcolor 255 0 0
+}
+
+Lock 2 {
+	Blip // unobtainable key
+	Message "$MSG_WONT_OPEN"
+}
+
+Lock 3 { //CresBoltFlud
+	CrescentShard
+	LightningShard
+	FloodShard
+	LockedSound None
+}
+
+Lock 4 {
+	CrescentShard
+	StarShard
+	MeteorShard
+	LockedSound None
+}
+
+Lock 99 {
+	LightningShard
+}
+
+
+// Silent locks
+Lock 101 {
+	CrescentShard
+	LockedSound None
+}
+
+Lock 102 {
+	StarShard
+	LockedSound None
+}
+
+Lock 103 {
+	MeteorShard
+	LockedSound None
+}
+
+Lock 104 {
+	LightningShard
+	LockedSound None
+}
+
+Lock 105 {
+	FloodShard
+	LockedSound None
+}
+
+Lock 106 {
+	EmberShard
+	LockedSound None
+}
+
+Lock 107 {
+	CrystalShard
+	LockedSound None
+}
+
+Lock 108 {
+	FlowShard
+	LockedSound None
+}
+
+Lock 109 {
+	GravityShard
+	LockedSound None
+}
+
+Lock 110 {
+	ChaosShard
+	LockedSound None
+}
+
+Lock 111 {
+	VoidShard
+	LockedSound None
+}
+
+Lock 112 {
+	MatterShard
+	LockedSound None
+}
+
+Lock 113 {
+	ShellShard
+	LockedSound None
+}
+
+Lock 114 {
+	SoulShard
+	LockedSound None
+}

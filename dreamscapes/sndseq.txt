@@ -1,0 +1,43 @@
+:ClosetOpen
+   playtime		doors/cd_start 20
+   playrepeat	doors/cd_mid
+   stopsound	doors/cd_end
+end
+
+:ClosetClose
+   playtime 	doors/cd_start 20
+   playrepeat	doors/cd_mid
+   stopsound	doors/cd_end
+end
+
+:DoorOpenNormal
+   play	doors/dr1_open
+   nostopcutoff
+end
+
+:DoorCloseNormal
+   play	doors/dr1_clos
+   nostopcutoff
+end
+
+:Floor
+	playrepeat	doors/cd_mid
+	stopsound	doors/cd_end
+end
+
+[ClosetDoor
+	Door 1
+	0 ClosetOpen
+	1 ClosetClose
+	2 ClosetOpen
+	3 ClosetClose
+]
+
+[NexusDoor
+	Door 2
+	0 DoorOpenNormal
+	1 DoorCloseNormal
+	2 DoorOpenNormal
+	3 DoorCloseNormal
+]
+	

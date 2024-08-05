@@ -1,0 +1,7 @@
+Model Table {
+   Path "models"
+   Model 0 "table.obj"
+   Scale 1.0 1.0 1.0
+
+   Frame TABL A 1 "frame01"
+}

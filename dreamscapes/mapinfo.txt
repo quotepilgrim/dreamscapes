@@ -1,0 +1,158 @@
+include "mapinfo/ds_nums.txt"
+
+GameInfo
+{
+	TitlePage = "graphics/titlepic.png"
+	InfoPage = "infopic"
+	CursorPic = "graphics/m_cursor.png"
+	PauseSign = "graphics/m_pause.png"
+	BorderFlat = "graphics/border_flat.png"
+	TitleMusic = "music/title.mid"
+	//QuitSound = "menu/quit"
+	MenuBackButton = "graphics/m_back.png"
+	MenuFontColor_Title = "White"
+	MenuFontColor_Label = "Gray"
+	MenuFontColor_Value = "Gray"
+	MenuFontColor_Action = "Gray"
+	MenuFontColor_Header = "White"
+	MenuFontColor_Highlight = "White"
+	MenuFontColor_Selection = "Gray"
+	FullscreenAutoAspect = 3
+	DimColor = "0b 0b 0b"
+	DimAmount = 0.8
+	PlayerClasses = "DreamscapePlayer"
+	StatusbarClass = "DreamscapeHUD"
+	QuitMessages = "$QUITMSG"
+}
+
+Automap {
+	base = "Doom"
+}
+
+// episodes
+
+ClearEpisodes
+Episode room1 {
+	Name = "$MAP_ROOM1"
+}
+
+
+// skill settings
+
+Skill normal {
+	SpawnFilter = Normal
+	Name = "$SKILL_NORMAL"
+	DefaultSkill
+}
+
+// map definitions
+
+DefaultMap {
+	LightMode = 3
+	Sky1 = "sky1"
+	NoIntermission
+}
+
+Map "START" "" {
+	NoJump
+}
+
+Map "DEBUG" "$MAP_DEBUG" {
+	LevelNum = 0
+	Music = "music/bedroom.mid"
+	Cluster = 3
+}
+
+Map "ROOM1" "$MAP_ROOM1" {
+	LevelNum = 1
+	Music = "music/bedroom.mid"
+	Next = Endgame {
+		pic = "titlepic"
+		music = "music/title.mid", 0
+	}
+}
+
+Map "ROOM2" "$MAP_ROOM2" {
+	LevelNum = 2
+	Music = "music/bedroom.mid"
+}
+
+Map "META1" "???" {
+	LevelNum = 3
+}
+
+Map "META2" "???" {
+	LevelNum = 4
+}
+
+Map "META3" "???" {
+	LevelNum = 5
+	smoothlighting
+}
+
+Map "SHROOM" "$MAP_SHROOM" {
+	LevelNum = 8
+	Music = "music/liquified.mid"
+	Cluster = 3
+}
+
+Map "NEXUS" "$MAP_NEXUS" {
+	LevelNum = 9
+	Cluster = 1
+	Sky1 = "sky2"
+	Music = "music/nexus.mid"
+	Next = "ROOM1"
+}
+
+Map "DREAM1" "$MAP_DREAM1" {
+	LevelNum = 10
+	Music = "music/mirage.mid"
+}
+
+Map "DREAM2" "$MAP_DREAM2" {
+	LevelNum = 11
+	Music = "music/distance.mid"
+	Cluster = 2
+}
+
+Map "DREAM3" "$MAP_DREAM3" {
+	LevelNum = 12
+	Music = "music/thoughts.mid"
+}
+
+Map "DREAM4" "$MAP_DREAM4" {
+	LevelNum = 13
+	Music = "music/memory.mid"
+	Cluster = 2
+	UsePlayerStartZ
+}
+
+Map "DREAM5" "$MAP_DREAM5" {
+	LevelNum = 14
+	Music = "music/liquified.mid"
+}
+
+Map "DREAM6" "$MAP_DREAM6" {
+	LevelNum = 15
+	Music = "music/drift.mid"
+}
+
+Map "DREAM7" "$MAP_DREAM7" {
+	LevelNum = 16
+	Music = "music/luminous.mid"
+	evenlighting
+}
+
+// cluster definitions
+
+Cluster 1 {
+	hub
+}
+
+Cluster 2 {
+	hub
+}
+
+Cluster 3 {
+	hub
+}

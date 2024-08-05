@@ -1,0 +1,9 @@
+smallfont
+{
+	Template smolf%03d
+}
+
+bigfont
+{
+	Template bigfn%03d
+}

@@ -1,0 +1,290 @@
+Identifier,Remarks,eng enc ena enz eni ens enj enb enl ent enw,default,pt
+TXT_GAME_NAME,,,Maddy Dreamscapes,Maddy Dreamscapes
+MAP_DEBUG,,,Debug,Debug
+MAP_SHROOM,,,Shards Room,Sala dos Fragmentos
+MAP_NEXUS,,,The Nexus,O Nexo
+MAP_ROOM1,,,Madison's Bedroom,Quarto da Madison
+MAP_ROOM2,,,Madison's Bedroom?,Quarto da Madsion?
+MAP_DREAM1,,,Desert,Deserto
+MAP_DREAM2,,,Labyrinth,Labirinto
+MAP_DREAM3,,,Gallery,Galeria
+MAP_DREAM4,,,Sky,Céu
+MAP_DREAM5,,,Fun Guys,Caras Fungais
+MAP_DREAM6,,,Highway,Avenida
+MAP_DREAM7,,,Neon Corridors,Corredores de Neon
+MAP_DREAM8,,,,
+MAP_DREAM9,,,,
+MAP_DREAM10,,,,
+MAP_DREAM11,,,,
+MAP_DREAM12,,,,
+MAP_DREAM13,,,,
+MAP_DREAM14,,,,
+MAP_DREAM15,,,,
+MAP_DREAM16,,,,
+MAP_DREAM17,,,,
+MAP_DREAM18,,,,
+MAP_DREAM19,,,,
+MAP_DREAM20,,,,
+MSG_CRES_NAME,,,Crescent Shard,Fragmento do Crescente
+MSG_CRES_GET,,,Take a leap of faith.,Dê um salto de fé.
+MSG_CRES_HELP,,,Reveals photos in diary; lets you walk in some places you couldn't before.,Revela fotos no diário; permite-lhe andar em alguns lugares que não podia antes.
+MSG_STAR_NAME,,,Star Shard,Fragmento da Estrela
+MSG_STAR_GET,,,They gaze upon you.,Elas olham para você.
+MSG_STAR_HELP,,,"Lets you warp back to the Nexus from a dreamscape. (""2"" by default.)","Permite-lhe voltar ao Nexo de uma paisagem dos sonhos. (""2"" por padrão.)"
+MSG_BOLT_NAME,,,Lightning Shard,Fragmento do Relâmpago
+MSG_BOLT_GET,,,Life has its ups and downs.,A vida tem seus altos e baixos.
+MSG_BOLT_HELP,,,Some floors can be lowered by interacting with them.,Alguns pisos pode ser abaixados ao interagir com eles.
+MSG_METE_NAME,,,Meteor Shard,Fragmento do Meteoro
+MSG_METE_GET,,,You feel lighter.,Você se sente mais leve.
+MSG_METE_HELP,,,Makes you move faster when you're sleeping.,Faz com que você se mova mais rápido enquanto dorme.
+MSG_EMBR_NAME,,,Ember Shard,Fragmento da Fagulha
+MSG_EMBR_GET,,,Feel its embrace.,Sinta seu abraço.
+MSG_EMBR_HELP,,, ,
+MSG_FLOW_NAME,,,Flow Shard,Fragmento do Fluxo
+MSG_FLOW_GET,,,You can get through these obstacles.,Você pode superar as barreiras.
+MSG_FLOW_HELP,,,Lets you walk through fences.,Permite que você ande através de cercas.
+MSG_FLUD_NAME,,,Flood Shard,Fragmento da Enchente
+MSG_FLUD_GET,,,It cleanses the body and the soul.,Ela limpa a alma e o corpo.
+MSG_FLUD_HELP,,, ,
+MSG_CRYS_NAME,,,Crystal Shard,Fragmento de Cristal
+MSG_CRYS_GET,,,Things get clearer.,As coisas se esclarecem.
+MSG_CRYS_HELP,,, ,
+MSG_GRAV_NAME,,,Gravity Shard,Fragmento da Gravidade
+MSG_GRAV_GET,,,It is not the fall that hurts you.,Não é a queda que te machuca.
+MSG_GRAV_HELP,,, ,
+MSG_CHAO_NAME,,,Chaos Shard,Fragmento Caótico
+MSG_CHAO_GET,,,Focus.,Foque-se.
+MSG_CHAO_HELP,,, ,
+MSG_MATT_NAME,,,Matter Shard,Fragmento Material
+MSG_MATT_GET,,,Do they have inherent value?,Elas têm valor inerente?
+MSG_MATT_HELP,,, ,
+MSG_VOID_NAME,,,Void Shard,Fragmento Vazio
+MSG_VOID_GET,,,You lost your words.,Você perdeu suas palavras.
+MSG_VOID_HELP,,, ,
+MSG_SHEL_NAME,,,Shell Shard,Fragmento da Casca
+MSG_SHEL_GET,,,You're hurt on the outside...,Você se feriu por fora...
+MSG_SHEL_HELP,,, ,
+MSG_SOUL_NAME,,,Soul Shard,Fragmento da Alma
+MSG_SOUL_GET,,,... and the inside.,... e por dentro.
+MSG_SOUL_HELP,,, ,
+MSG_DOOR,,,A door has opened somewhere...,Uma porta se abriu em algum lugar...
+MSG_OUTSIDE,,,An exit has appeared outside.,Uma saída surgiu no lado de fora.
+MSG_ALL_SHARDS,,,This door can be opened once all shards have been found.,Todos os fragmentos devem ser encontrados para abrir esta porta.
+MSG_STAR,,,The power of the star will let you through.,O poder da estrela a deixará passar.
+MSG_WONT_OPEN,,,I am not leaving.,Eu não pretendo sair.
+MSG_HELP,,,First time playing? Press F1 for help.,Primeira vez jogando? Pressione F1 para ajuda.
+MNU_INFO,,,Help,Ajuda
+TXT_HELP,,,"You are a girl named Madison.
+
+* Interact with laptop (""E"" by default) to read your diary entries.
+
+* Press the interact key while on your bed to go to sleep and
+  wake up in the dream world.
+
+* After entering the dream world, you can leave your bedroom and visit the
+  Nexus, a place from which you can access your many dreamscapes.
+
+* Collecting shards will unlock new entries in your diary.
+
+* You can wake up by pressing ""1"".
+  (Some events inside the dream world can wake you up involuntarily)
+
+* You can see which shards you have collected by entering
+  your closet in the dream world.
+
+* By being in posession of all 14 shards, you can open a mysterious door.
+  (Only 7 shards are available in this demo.)","Você é uma menina chamada Madison.
+
+* Interaja com o laptop (tecla ""E"" por padrão) para ler o seu diário.
+
+* Pressione a tecla de interação quando estiver na cama para dormir
+  e acordar no mundo dos sonhos.
+
+* Após entrar no mundo dos sonhos, você pode sair do quarto e visitar o Nexo,
+  um lugar do qual você pode visitar várias paisagens dos sonhos.
+
+* Colete fragmentos para desbloquear novas páginas do seu diário.
+
+* Pressione ""1"" para acordar.
+  (Alguns eventos dentro do mundo dos sonhos podem te acordar à força.)
+
+* Você pode ver quais fragmentos você coletou entrando no seu
+  armário no mundo dos sonhos.
+
+* Estando em posse dos 14 fragmentos, você pode abrir uma porta misteriosa.
+  (Apenas 7 fragmentos podem ser encontrados neste demo.)"""
+TXT_HUD_HEALTH,,,Health:,Vida:
+TXT_HUD_SHARDS,,,Shards:,Fragmentos:
+TXT_DIARY,,,Diary,Diário
+TXT_DIALOG,,,Pick an entry:,Escolha uma entrada:
+TXT_CLOSE,,,Close,Sair
+OB_DEFAULT,,,Maddy had a bad dream.,Maddy teve um sonho ruim.
+OB_SLIME,,,$$OB_DEFAULT,$$OB_DEFAULT
+QUITMSG,,,Are you sure you want to quit this game?,Tem certeza que deseja sair do jogo?
+TXT_WAKEUP,,,Wake Up,Acordar
+TXT_LOCKED,,,\cu[LOCKED],\cu[BLOQUEADO]
+MSG_AT_NEXUS,,,I'm already at The Nexus.,Eu já estou no Nexo.
+MSG_NOT_DREAMING,,,I am not sleeping.,Eu não estou dormindo.
+MSG_LOG_TITLE_1,,,"February 19th, 2013","19 de fevereiro, 2013"
+MSG_LOG_1_1,,,"\n
+Dad gave me a camera for my 14th birthday, says I'm a creative kid...
+Am I really? I dunno. I do love to draw, I guess, and write poems.
+But how can any of it be creative when it feels so empty, so... soulless?
+\n\cu(1 out of 2)","\n
+Papai me deu uma câmera para meu aniversário de 14 anos, ele diz
+que eu sou uma menina criativa... Sou mesmo? Não sei. Até que gosto
+de desenhar, e escrever poemas, eu suponho. Mas como dizer que isso
+é criatvo quando parece tão vazio, tão... sem alma?
+\n\cu(1 de 2)"
+MSG_LOG_1_2,,,"\n
+Does it even matter? I mean, does everything need to have a meaning?
+I don't understand why everything needs to be something, why can't things
+simply... be? What am I even saying? Doesn't matter, I'm just gonna go out
+and take my new toy for a spin.
+\n\cu(2 out of 2)","\n
+Isso importa? Será que tudo precisa ter um significado? Eu não entendo
+por que tudo precisa ser algo, por que as coisas não podem apenas... ser.
+O que eu quero dizer com isso? Ah, não importa, eu vou dar uma saída para
+testar meu novo brinquedo.
+\n\cu(2 de 2)"
+MSG_LOG_TITLE_2,,,"February 20th, 2013","20 de fevereiro, 2013"
+MSG_LOG_2,,,"\n
+This morning, as I was looking through the pictures I took yesterday,
+I found a picture I didn't take, of a place I have never seen...
+is this some sort of prank? No one else has touched that memory card
+other than myself... Was it dad? Should I ask him about it?","\n
+Essa manhã, olhando as fotos que tirei ontem, eu encontrei uma foto
+que eu não tirei, de um lugar que eu nunca vi antes... Isso é alguma
+pegadinha? Ninguém além de mim enconstou no cartão de memória...
+Será que foi o papai? Devo perguntar pra ele?"
+MSG_LOG_TITLE_3,,,"February 23th, 2013","23 de fevereiro, 2013"
+MSG_LOG_3_1,,,"\n
+Dad keeps insisting that he wants to read the poems I write. I won't let him.
+I did want show 'em to him, but I know he won't think they're that good.
+How could he, when even I don't think they're all that? I wish I could get
+to know this creative girl he sees when he looks at me. She seems nice.
+\n\cu(1 out of 3)","\n
+Papai fica insistindo para ler os poemas que eu escrevo, mas eu não deixo.
+Eu até queria mostrá-los para ele, mas sei que ele não vai achar grande
+coisa. Como poderia, quando eu mesma não acho? Eu queria poder conhecer
+essa menina criativa que ele vê quando olha pra mim. Ela parece legal.
+\n\cu(1 de 3)"
+MSG_LOG_3_2,,,"\n
+It's been almost a week, and I still haven't shown him the photo.
+At first, I didn't know why, I just felt a strange apprehension when
+thinking about showing it, but now it's all starting to make sense.
+\n\cu(2 out of 3)","\n
+Já passou quase uma semana, e eu não cheguei a mostrar a foto para ele.
+No começo eu não sabia por quê, eu só sentia uma estranha apreensão quando
+pensava em mostrá-la, mas agora começou a fazer sentido.
+\n\cu(2 de 3)"
+MSG_LOG_3_3,,,"\n
+By that I mean why I don't show it to him. How such a photo can
+even exist is still a mystery. One for which I believe there's no solution.
+The place in the photo, I recognize it after all. It just took me a little
+while to realize. Another photo appeared, and it made things a bit clearer.
+\n\cu(3 out of 3)","\n
+O motivo para não querer mostrar a foto, digo. Como é possível que tal
+foto exista ainda é um mistério. Um para o qual acredito não haver solução.
+Eu conhecia o lugar daquela foto, no fim das contas, eu só demorei um
+pouco para perceber. Surgiu outra foto, e esclareceu um pouco as coisas.
+\n\cu(3 de 3)"
+MSG_LOG_TITLE_4,,,"February 27th, 2013","27 de fevereiro, 2013"
+MSG_LOG_4_1,,,"\n
+Three pictures now. Their origin clearer than ever. How it's possible for
+such photos to exist, however, remains a mystery even more
+unanswerable than before. Their existence defies all logic.
+\n\cu(1 out of 3)","\n
+Três fotos agora. Sua origem mais clara do que nunca. Como é possível que
+tais fotos possam existir, no entanto, me parece um minstério ainda mais
+irrespondível do que antes. Sua existência desafia toda a lógica.
+\n\cu(1 de 3)"
+MSG_LOG_4_2,,,"\n
+The photos come from a place I created when I started writing. Be it
+poems, short stories, novels... everything I have ever written takes place
+in some imaginary world with unique characteristics and its own set of
+rules that differ from those of other worlds.
+\n\cu(2 out of 3)","\n
+As fotos vêm de um lugar que criei quando comecei a escrever. Sejam
+poemas, contos, romances -- tudo que sempre escrevi se pasa em algum mundo
+imaginário com características únicas, suas própria regras que diferem
+daquelas dos outros mundos.
+\n\cu(2 de 3)"
+MSG_LOG_4_3,,,"\n
+All the worlds that exist in my imagination, however, connect to a single
+place, a labyrinth filled of portals that lead to these worlds.
+The place I named ""Nexus of Illusions"".
+\n\cu(3 out of 3)","\n
+Todos os mundos que existem na minha imaginação, no entanto, se conectam em
+um único lugar, um labirinto repleto de portais que levam a esses mundos.
+O lugar ao qual dei o nome ""Nexo das Ilusões"".
+\n\cu(3 de 3)"
+MSG_LOG_TITLE_5,,,"March 1st, 2013","1° de março, 2013"
+MSG_LOG_5_1,,,"\n
+Sometimes, I think I'm going crazy. That this idea that my camera is
+somehow capturing images from my subconscious is just a delusion of mine.
+That one day I'll wake up, put the memory card into my laptop, and realize
+that the photos aren't there, that it was all my imagination all along.
+\n\cu(1 out of 2)","\n
+Às vezes, eu penso que estou ficando louca. Que essa idéia de que minha
+câmera está de alguma forma capturando imagens do meu subconsciente não passa
+de um delírio meu. Que um dia eu vou acordar, colocar o cartão de memória
+no meu laptop, e perceber que as fotos não estão lá, que foi tudo coisa da
+minha imaginação desde o início.
+\n\cu(1 de 2)"
+MSG_LOG_5_2,,,"\n
+But every time, without exception, a new photo emerges.
+\n\cu(2 out of 2)","\n
+Mas toda vez, sem excessão, uma nova foto aparece.
+\n\cu(2 de 2)"
+MSG_LOG_6_1,,,"\n
+Today dad took Julia and me to an art museum. The main exhibition
+featured a local artist who has been gaining popularity. In a way,
+some of their works remind me of the photographs taken by
+Zdzisław Beksiński at the beginning of his career. But instead of
+photographs, they were oil paintings.
+\n\cu(1 out of 2)","\n
+Hoje papai levou Júlia e eu a um museu de arte. A principal exposição
+era de um artista local que vem ganhando popularidade. De certo modo,
+algumas de suas obras me lembram das fotografias tiradas por
+Zdzisław Beksiński no início de sua carreira. Mas no lugar de
+fotografias, são pinturas a óleo.
+\n\cu(1 de 2)"
+MSG_LOG_TITLE_6,,,"March 14th, 2013","14 de março, 2013"
+MSG_LOG_6_2,,,"\n
+Julia didn't have much to say about the paintings. I got the
+impression that she wasn't as interested as I was, but we still had fun
+nonetheless. I don't go anywhere without Julia. She's my best friend.
+\n\cu(2 out of 2)","\n
+Júlia não tinha muito o que dizer o que dizer sobre as pinturas. Tive
+a impressão de que ela não estava interessada quanto eu, mas nos divertimos
+mesmo assim. Eu não vou a lugar nenhum sem a Júlia. É a minha melhor amiga.
+\n\cu(2 de 2)"
+MSG_LOG_TITLE_7,,,\ci[MISSING DATE],\ci[SEM DATA]
+MSG_LOG_7_1,,,"\n
+There was a time I would write every day in this journal.
+That was left behind, and with it the delusion that anyone would
+one day show interest in the stuff I write.
+\n\cu(1 out of 3)","\n
+Houve uma época em que eu escrevia neste diário todos os dias.
+Ela foi deixada para trás, e com ela a minha ilusão de que alguém
+pudesse algum dia se interessar nos coisas que eu escrevo.
+\n\cu(1 de 3)"
+MSG_LOG_7_2,,,"\n
+Writing is sporadic now. So is drawing, making music, feeling
+like going outside and taking pictures. The will to do anything
+creative has only diminished over time.
+\n\cu(2 out of 3)","\n
+A escrita é esporádica agora. E também o desenho, a música,
+a vontade de sair para tirar fotos. A vontade de realizar qualquer
+exercício criativo só vem diminuindo.
+\n\cu(2 de 3)"
+MSG_LOG_7_3,,,"\n
+And now, with the pictures that appear to me from the Nexus being
+more beautiful than anything taken by myself, especially photography
+as an activity has become futile.
+\n\cu(3 out of 3)","\n
+E agora, com as fotos que aparecem para mim do Nexo sendo mais
+belas do qualquer uma tirada por mim, a fotografia em especial
+se tornou uma atividade fútil.
+\n\cu(3 de 3)"

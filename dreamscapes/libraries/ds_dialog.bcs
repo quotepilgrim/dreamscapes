@@ -1,0 +1,142 @@
+#library "ds_dialog"
+#import "zcommon.bcs"
+#import "ds_defs.bcs"
+
+int MSG_COUNTS[] = {1, 2, 2, 4, 4, 3, 3, 4};
+bool dialog_open = true;
+
+str diary_titles[] = {
+	"",
+	"MSG_LOG_TITLE_1",
+	"MSG_LOG_TITLE_2",
+	"MSG_LOG_TITLE_3",
+	"MSG_LOG_TITLE_4",
+	"MSG_LOG_TITLE_5",
+	"MSG_LOG_TITLE_6",
+	"", // log 7 missing date.
+};
+
+str diary_entries[][][] = {
+	{
+		{"text", "***"},
+	},
+	{
+		{"text", "MSG_LOG_1_1"},
+		{"text", "MSG_LOG_1_2"},
+	},
+	{
+		{"text", "MSG_LOG_2"},
+		{"image", "photo_1"},
+	},
+	{
+		{"text","MSG_LOG_3_1"},
+		{"text","MSG_LOG_3_2"},
+		{"text","MSG_LOG_3_3"},
+		{"hide_img","photo_3"},
+	},
+	{
+		{"text","MSG_LOG_4_1"},
+		{"text","MSG_LOG_4_2"},
+		{"text","MSG_LOG_4_3"},
+		{"hide_img","photo_4"},
+	},
+	{
+		{"text", "MSG_LOG_5_1"},
+		{"text", "MSG_LOG_5_2"},
+		{"image", "photo_6"},
+	},
+	{
+		{"text","MSG_LOG_6_1"},
+		{"text","MSG_LOG_6_2"},
+		{"hide_img","photo_2"},
+	},
+	{
+		{"text","MSG_LOG_7_1"},
+		{"text","MSG_LOG_7_2"},
+		{"text","MSG_LOG_7_3"},
+		{"hide_img","photo_5"},
+	},
+};
+
+int msg_max;
+
+str msg;
+str msg_type;
+str msg_title;
+
+bool lock;
+
+void DisplayPicture(str picture) {
+	SetFont(picture);
+	SetHudSize(960, 720, TRUE);
+	HudMessage(s:"A"; HUDMSG_PLAIN, 1, 0, 480.0, 360.0, ONE_TICK);
+}
+
+void DisplayMessage (int msg_id, int msg_count) {
+	msg_max = MSG_COUNTS[msg_id];
+	msg_type = diary_entries[msg_id][msg_max - msg_count][0];
+	msg_title = diary_titles[msg_id];
+	msg = diary_entries[msg_id][msg_max - msg_count][1];
+
+	if (msg_type == "hide_img") {
+		if (!CheckInventory("CrescentShard")) {
+			lock = FALSE;
+			return;
+		}
+		DisplayPicture(msg);
+	} else if (msg_type == "image") {
+		DisplayPicture(msg);
+	} else {
+		setfont("smallfont");
+		print(l:msg_title, l:msg);
+	}
+}
+
+void ClearMessage() {
+	print(s:"");
+	HudMessage(s:""; HUDMSG_PLAIN, 1, 0, 0, 0, ONE_TICK);
+}
+
+script DIALOGUE (int msg_id) {
+// can't use named script because ZSDF has no arg0str, only arg0
+	int msg_count = MSG_COUNTS[msg_id];
+	int buttons;
+	lock = FALSE;
+	
+	SetPlayerProperty(FALSE,ON,PROP_TOTALLYFROZEN);
+	while (true) {
+		buttons = GetPlayerInput(-1, INPUT_BUTTONS);
+		
+		if (buttons & (
+			BT_ATTACK|
+			BT_JUMP|
+			BT_USER1|
+			BT_USER2|
+			BT_USER3|
+			BT_USER4)
+		) {
+			if (lock == FALSE) {
+				ClearMessage();
+				msg_count--;
+				lock = TRUE;
+			}
+			if (msg_count == 0) {
+				break;
+			}
+		} else {
+			lock = FALSE;
+		}
+		
+		if (buttons & BT_USE) {
+			ClearMessage();
+			break;
+		}
+		
+		DisplayMessage(msg_id, msg_count);
+		
+		delay(1);
+	}
+	dialog_open = false;
+	delay(5);
+	SetPlayerProperty(FALSE,OFF,PROP_TOTALLYFROZEN);
+}

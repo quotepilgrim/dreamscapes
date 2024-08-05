@@ -1,0 +1,33 @@
+$playersound	player	*	*usefail	sounds/nope.wav
+$playersound	player	*	*pain100	sounds/hurt.wav
+$playersounddup	player	*	*pain75		*pain100
+$playersounddup	player	*	*pain50		*pain100
+$playersounddup	player	*	*pain25		*pain100
+$playersound	player	*	*death		sounds/death.wav
+
+menu/activate		sounds/menua.wav
+menu/backup			sounds/menub.wav
+menu/prompt			sounds/menub.wav	
+menu/cursor			sounds/menub.wav
+menu/change			sounds/menub.wav
+menu/invalid		sounds/nope.wav
+menu/dismiss		sounds/nope.wav
+menu/choose			sounds/menua.wav
+menu/clear			sounds/menub.wav
+menu/quit			sounds/quit.wav
+
+doors/dr1_open		sounds/dr1open.wav
+doors/dr1_clos		sounds/dr1close.wav
+doors/dr2_open		sounds/dr2open.wav
+doors/dr2_clos		sounds/dr2close.wav
+doors/cd_start		sounds/cd_start.wav
+doors/cd_mid		sounds/cd_mid.wav
+doors/cd_end		sounds/cd_end.wav
+
+switches/swon		sounds/swon.wav
+switches/swoff		sounds/swoff.wav
+
+misc/i_pkup			sounds/pickup.wav
+misc/teleport		sounds/teleport.wav
+misc/chat			sounds/menua.wav
+misc/secret			sounds/secret.wav

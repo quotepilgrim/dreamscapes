@@ -1,0 +1,26 @@
+texture noise_a
+	range noise_d
+	tics 2
+
+texture rnoise_a
+    range rnoise_d
+	tics 10
+	
+texture bnoise_a
+	range bnoise_d
+	tics 10
+
+texture bfall_a
+	range
+	bfall_d
+	tics 5
+
+switch sw_a1 on
+	sound switches/swon
+	pic sw_a2
+	tics 0
+
+switch sw_a2 off
+	sound switches/swoff
+	pic sw_a1
+	tics 0

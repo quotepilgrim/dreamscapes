@@ -1,0 +1,42 @@
+DoomEdNums {
+     5 = TreeA
+	 6 = CrescentShard, ACS_Execute, 199
+	 7 = StarShard, ACS_Execute, 199
+	 8 = LightningShard, ACS_Execute, 199
+	 9 = MeteorShard, ACS_Execute, 199
+	10 = EmberShard, ACS_Execute, 199
+	11 = FlowShard, ACS_Execute, 199
+	12 = FloodShard, ACS_Execute, 199
+	13 = TreeB
+	//14 TeleportDest
+	15 = BushA
+	16 = VineA
+	17 = BushB
+	18 = Chaser
+	19 = CrystalShard, ACS_Execute, 199
+	20 = ChaosShard, ACS_Execute, 199
+	21 = VoidShard, ACS_Execute, 199
+	22 = GravityShard, ACS_Execute, 199
+	23 = MatterShard, ACS_Execute, 199
+	24 = SoulShard, ACS_Execute, 199
+	25 = Blip
+	26 = ShellShard, ACS_Execute, 199
+	27 = Julia
+	28 = FungusA
+	29 = FungusB
+	30 = FungusC
+	31 = FungusD
+	32 = FungusF
+	33 = TreeC
+	34 = TreeD
+	35 = HandA
+	36 = HandB
+	37 = TreeF
+	38 = TreeG
+	39 = TreeH
+	40 = HeadSilhouette
+	41 = HeadWithEyes
+	42 = HeadWithTeeth
+	99 = Table
+	//118 ZBridge
+}

@@ -1,0 +1,10 @@
+IWAD
+{
+	Name = "Maddy Dreamscapes"
+	BannerColors = "80c4c4", "806080"
+	AutoName = "Dreamscapes"
+	Game = "Doom"
+	Config = "Dreamscapes"
+	IWADName = "dreamscapes.ipk3"
+	Mapinfo = "mapinfo/mindefaults.txt"
+}

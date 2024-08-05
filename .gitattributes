@@ -1,0 +1,10 @@
+* text=auto
+*.bcs text eol=lf
+*.csv text eol=lf
+*.dlg text eol=lf
+*.obj text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+*.zs text eol=lf
+.* text eol=lf

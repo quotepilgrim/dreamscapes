@@ -1,0 +1,29 @@
+#library "ds_dreamscripts"
+#import "zcommon.bcs"
+#import "ds_defs.bcs"
+
+script "dream_enter" ENTER {
+	
+	if(GetCVar("debug")) log(s:"DREAMSCRIPTS LOADED");
+
+	if (CheckInventory("MeteorShard")) {
+		GiveInventory("SpeedUp", 1);
+	}
+	
+	if (!CheckInventory("FlowShard")) {
+		Line_SetBlocking(111, BLOCKF_EVERYTHING, 0);
+	}
+}
+
+script "die" DEATH {	
+	foreach(let int i; let str shard; SHARDS) {
+		if (CheckInventory(shard)) {
+			GOT_SHARDS[i] = 1;
+		} else {
+			GOT_SHARDS[i] = 0;
+		}
+	}
+	delay(35*5);
+	ACS_NamedExecute("resurrect", 1);
+	Teleport_NewMap(1,0);
+}
