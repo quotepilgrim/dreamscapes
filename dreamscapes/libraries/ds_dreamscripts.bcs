@@ -18,9 +18,9 @@ script "dream_enter" ENTER {
 script "die" DEATH {	
 	foreach(let int i; let str shard; SHARDS) {
 		if (CheckInventory(shard)) {
-			GOT_SHARDS[i] = 1;
+			HAS_SHARD[i] = 1;
 		} else {
-			GOT_SHARDS[i] = 0;
+			HAS_SHARD[i] = 0;
 		}
 	}
 	delay(35*5);

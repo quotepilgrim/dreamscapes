@@ -20,7 +20,7 @@ enum {
 //
 global int 1: bit_flags;
 global int 2: liaju_counter;
-global int 3: GOT_SHARDS[14];
+global int 3: HAS_SHARD[14];
 
 str SHARDS[] = {
 	"CrescentShard",
