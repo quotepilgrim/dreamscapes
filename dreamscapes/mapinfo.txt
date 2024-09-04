@@ -143,6 +143,12 @@ Map "DREAM7" "$MAP_DREAM7" {
 	evenlighting
 }
 
+Map "DREAM8" "$MAP_DREAM8" {
+	LevelNum = 17
+	Music = "music/luminous.mid"
+	evenlighting
+}
+
 // cluster definitions
 
 Cluster 1 {

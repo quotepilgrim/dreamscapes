@@ -72,6 +72,7 @@ MSG_OUTSIDE,,,An exit has appeared outside.,Uma saída surgiu no lado de fora.
 MSG_ALL_SHARDS,,,This door can be opened once all shards have been found.,Todos os fragmentos devem ser encontrados para abrir esta porta.
 MSG_STAR,,,The power of the star will let you through.,O poder da estrela a deixará passar.
 MSG_WONT_OPEN,,,I am not leaving.,Eu não pretendo sair.
+MSG_NEED_BOLT,,,It won't move without energy.,Não dá para mover sem energia.
 MSG_HELP,,,First time playing? Press F1 for help.,Primeira vez jogando? Pressione F1 para ajuda.
 MNU_INFO,,,Help,Ajuda
 TXT_HELP,,,"You are a girl named Madison.

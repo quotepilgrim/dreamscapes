@@ -40,6 +40,7 @@ Lock 4 {
 
 Lock 99 {
 	LightningShard
+	Message "$MSG_NEED_BOLT"
 }
 
 
