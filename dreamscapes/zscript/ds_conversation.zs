@@ -40,6 +40,7 @@ Class DSConversationMenu : ConversationMenu {
 		{
 			mSelection = r < activereply ? r + 1 : 0;
 		}
+
 		let goodbyestr = mCurNode.Goodbye;
 		if (goodbyestr.Length() == 0)
 		{
@@ -66,6 +67,7 @@ Class DSConversationMenu : ConversationMenu {
 		{
 			mSelection = mResponses.Size() - 1;
 		}
-		return mYpos;
+		
+		return 100;
 	}
 }

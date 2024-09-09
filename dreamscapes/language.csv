@@ -74,6 +74,11 @@ MSG_STAR,,,The power of the star will let you through.,O poder da estrela a deix
 MSG_WONT_OPEN,,,I am not leaving.,Eu não pretendo sair.
 MSG_NEED_BOLT,,,It won't move without energy.,Não dá para mover sem energia.
 MSG_HELP,,,First time playing? Press F1 for help.,Primeira vez jogando? Pressione F1 para ajuda.
+MSG_PRESS,,,Press ,Pressione 
+MSG_TO_SLEEP,,, on the bed to sleep., na cama para dormir.
+MSG_TO_READ,,, to interact with laptop., para interagir com o laptop.
+MNU_RESUME,,,Resume,Continuar
+MNU_ENDGAME,,,Return to Title,Voltar ao início
 MNU_INFO,,,Help,Ajuda
 TXT_HELP,,,"You are a girl named Madison.
 
@@ -122,10 +127,28 @@ TXT_CLOSE,,,Close,Sair
 OB_DEFAULT,,,Maddy had a bad dream.,Maddy teve um sonho ruim.
 OB_SLIME,,,$$OB_DEFAULT,$$OB_DEFAULT
 QUITMSG,,,Are you sure you want to quit this game?,Tem certeza que deseja sair do jogo?
-TXT_WAKEUP,,,Wake Up,Acordar
+TXT_WAKEUP,,,Wake up,Acordar
 TXT_LOCKED,,,\cu[LOCKED],\cu[BLOQUEADO]
 MSG_AT_NEXUS,,,I'm already at The Nexus.,Eu já estou no Nexo.
 MSG_NOT_DREAMING,,,I am not sleeping.,Eu não estou dormindo.
+CNTRLMNU_WEAPONS,,,Effects,Efeitos
+CNTRLMNU_WEAPONS_TITLE,,,Customize Effects Controls,Personalizar comandos de efeito
+CNTRLMNU_NEXTWEAPON,,,\cm---,
+CNTRLMNU_PREVIOUSWEAPON,,,\cm---,
+CNTRLMNU_SLOT1,,,$$TXT_WAKEUP,
+CNTRLMNU_SLOT2,,,$$MSG_STAR_NAME,
+CNTRLMNU_SLOT3,,,SLOT3,
+CNTRLMNU_SLOT4,,,SLOT4,
+CNTRLMNU_SLOT5,,,SLOT5,
+CNTRLMNU_SLOT6,,,SLOT6,
+CNTRLMNU_SLOT7,,,SLOT7,
+CNTRLMNU_SLOT8,,,SLOT8,
+CNTRLMNU_SLOT9,,,SLOT9,
+CNTRLMNU_SLOT0,,,SLOT0,
+CNTRLMNU_USER1,,,User control #1,Comando de usuário 1
+CNTRLMNU_USER2,,,User control #2,Comando de usuário 2
+CNTRLMNU_USER3,,,User control #3,Comando de usuário 3
+CNTRLMNU_USER4,,,User control #4,Comando de usuário 4
 MSG_LOG_TITLE_1,,,"February 19th, 2013","19 de fevereiro, 2013"
 MSG_LOG_1_1,,,"\n
 Dad gave me a camera for my 14th birthday, says I'm a creative kid...
@@ -173,19 +196,19 @@ essa menina criativa que ele vê quando olha pra mim. Ela parece legal.
 MSG_LOG_3_2,,,"\n
 It's been almost a week, and I still haven't shown him the photo.
 At first, I didn't know why, I just felt a strange apprehension when
-thinking about showing it, but now it's all starting to make sense.
+thinking about showing it. Now I'm starting to understand.
 \n\cu(2 out of 3)","\n
 Já passou quase uma semana, e eu não cheguei a mostrar a foto para ele.
 No começo eu não sabia por quê, eu só sentia uma estranha apreensão quando
-pensava em mostrá-la, mas agora começou a fazer sentido.
+pensava em mostrá-la. Agora estou começando a entender.
 \n\cu(2 de 3)"
 MSG_LOG_3_3,,,"\n
-By that I mean why I don't show it to him. How such a photo can
-even exist is still a mystery. One for which I believe there's no solution.
+Why I don't show it to him, I mean. How such a photo can even
+exist is still a mystery. One for which I believe there's no solution.
 The place in the photo, I recognize it after all. It just took me a little
 while to realize. Another photo appeared, and it made things a bit clearer.
 \n\cu(3 out of 3)","\n
-O motivo para não querer mostrar a foto, digo. Como é possível que tal
+O motivo para não mostrar a foto, digo. Como é possível que tal
 foto exista ainda é um mistério. Um para o qual acredito não haver solução.
 Eu conhecia o lugar daquela foto, no fim das contas, eu só demorei um
 pouco para perceber. Surgiu outra foto, e esclareceu um pouco as coisas.
@@ -220,7 +243,7 @@ Todos os mundos que existem na minha imaginação, no entanto, se conectam em
 um único lugar, um labirinto repleto de portais que levam a esses mundos.
 O lugar ao qual dei o nome ""Nexo das Ilusões"".
 \n\cu(3 de 3)"
-MSG_LOG_TITLE_5,,,"March 1st, 2013","1° de março, 2013"
+MSG_LOG_TITLE_5,,,"March 1st, 2013","1º de março, 2013"
 MSG_LOG_5_1,,,"\n
 Sometimes, I think I'm going crazy. That this idea that my camera is
 somehow capturing images from my subconscious is just a delusion of mine.

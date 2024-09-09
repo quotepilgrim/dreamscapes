@@ -145,7 +145,7 @@ Map "DREAM7" "$MAP_DREAM7" {
 
 Map "DREAM8" "$MAP_DREAM8" {
 	LevelNum = 17
-	Music = "music/luminous.mid"
+	Music = "music/thoughts.mid"
 	evenlighting
 }
 

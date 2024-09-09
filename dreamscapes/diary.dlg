@@ -150,10 +150,32 @@ conversation {
 			}
 		}
 		
-		/*choice {
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "ChaosShard";
+				amount = 1;
+			}
+		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_8";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 7;
+			require {
+				item = "ChaosShard";
+				amount = 1;
+			}
+		}
+		
+		choice {
 			text = "===>";
 			nextpage = 2;
-		}*/
+		}
 	}
 	
 	page {
@@ -175,5 +197,172 @@ conversation {
 				amount = 7;
 			}
 		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_9";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 8;
+			require {
+				item = "ShardCount";
+				amount = 7;
+			}
+		}
+		
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "ShardCount";
+				amount = 8;
+			}
+		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_10";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 10;
+			require {
+				item = "ShardCount";
+				amount = 8;
+			}
+		}
+	
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "ShardCount";
+				amount = 9;
+			}
+		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_11";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 11;
+			require {
+				item = "ShardCount";
+				amount = 9;
+			}
+		}
+		
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "ShardCount";
+				amount = 10;
+			}
+		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_12";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 12;
+			require {
+				item = "ShardCount";
+				amount = 10;
+			}
+		}
+		
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "ShardCount";
+				amount = 11;
+			}
+		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_13";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 13;
+			require {
+				item = "ShardCount";
+				amount = 11;
+			}
+		}
+		
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "ShardCount";
+				amount = 12;
+			}
+		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_14";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 14;
+			require {
+				item = "ShardCount";
+				amount = 12;
+			}
+		}
+		
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "ShardCount";
+				amount = 13;
+			}
+		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_15";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 15;
+			require {
+				item = "ShardCount";
+				amount = 13;
+			}
+		}
+		
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "ShardCount";
+				amount = 14;
+			}
+		}
+		
+		choice {
+			text = "$MSG_LOG_TITLE_16";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 16;
+			require {
+				item = "ShardCount";
+				amount = 14;
+			}
+		}
+
 	}
 }
