@@ -6,8 +6,9 @@ class DSListMenu : ListMenu {
 		bool cont = false;
 		for(int i = 0; i < mDesc.mItems.Size(); i++) {
 			let lmItem = ListMenuItem(mDesc.mItems[i]);
-			if (!lmItem)
+			if (!lmItem) {
 				continue;
+			}
 				
 			let selItem = ListMenuItemSelectable(lmItem);
 			if (!selItem) {
@@ -22,8 +23,9 @@ class DSListMenu : ListMenu {
 			}
 			
 			let condItem = ListMenuItemOptTextItem(lmItem);
-			if (condItem && !condItem.DrawItem())
+			if (condItem && !condItem.DrawItem()) {
 				continue;
+			}
 				
 			selItem.SetY(curY);
 			curY += 16;
@@ -32,8 +34,7 @@ class DSListMenu : ListMenu {
 		int sel = 0;
 		while (!mDesc.mItems[sel].Selectable()) {
 			sel++;
-			if (sel >= mDesc.mItems.size())
-			{
+			if (sel >= mDesc.mItems.size()) {
 				sel = 0;
 				break;
 			}
@@ -73,8 +74,9 @@ class ListMenuItemOptTextItem : ListMenuItemTextItem {
 	}
 	
 	override void Draw(bool selected, ListMenuDescriptor desc) {
-		if (!DrawItem())
+		if (!DrawItem()) {
 			return;
+		}
 		super.Draw(selected, desc);
 	}
 	
