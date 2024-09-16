@@ -165,7 +165,7 @@ conversation {
 			special = 80;
 			arg0 = 277;
 			arg1 = 0;
-			arg2 = 7;
+			arg2 = 8;
 			require {
 				item = "ChaosShard";
 				amount = 1;
@@ -203,7 +203,7 @@ conversation {
 			special = 80;
 			arg0 = 277;
 			arg1 = 0;
-			arg2 = 8;
+			arg2 = 9;
 			require {
 				item = "ShardCount";
 				amount = 7;

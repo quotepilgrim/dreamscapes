@@ -2,7 +2,7 @@
 #import "zcommon.bcs"
 #import "ds_defs.bcs"
 
-int MSG_COUNTS[] = {1, 2, 2, 4, 4, 3, 3, 4};
+int MSG_COUNTS[] = {1, 2, 2, 4, 4, 3, 3, 4, 1};
 bool dialog_open = true;
 
 str diary_titles[] = {
@@ -14,6 +14,7 @@ str diary_titles[] = {
 	"MSG_LOG_TITLE_5",
 	"MSG_LOG_TITLE_6",
 	"", // log 7 missing date.
+	"MSG_LOG_TITLE_8",
 };
 
 str diary_entries[][][] = {
@@ -56,6 +57,10 @@ str diary_entries[][][] = {
 		{"text","MSG_LOG_7_3"},
 		{"hide_img","photo_5"},
 	},
+	{
+		{"text",""},
+	},
+	
 };
 
 int msg_max;
