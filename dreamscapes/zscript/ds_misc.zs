@@ -39,3 +39,17 @@ class CresBoltFlud : Inventory {
 		Inventory.MaxAmount 1;
 	}
 }
+
+class Target : Actor {
+	//$Group Decorations/Plants
+	Default {
+		Radius 16;
+		Height 32;
+		+NOGRAVITY
+	}
+	States {
+	Spawn:
+		TARG A -1;
+		Stop;
+	}
+}

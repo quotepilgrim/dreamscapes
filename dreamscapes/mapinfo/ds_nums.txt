@@ -37,6 +37,6 @@ DoomEdNums {
 	40 = HeadSilhouette
 	41 = HeadWithEyes
 	42 = HeadWithTeeth
-	99 = Table
+	99 = Target
 	//118 ZBridge
 }

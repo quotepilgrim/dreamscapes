@@ -7,14 +7,12 @@ local small_paintings = {
 	"PAINT_13",
 	"PAINT_14",
 	"PAINT_15",
-	"PAINT_26",
 	"PAINT_27",
 	"PAINT_28",
 	"PAINT_30",
 	"PAINT_31",
 	--big ones:
 	"PAINT_17",
-	"PAINT_21",
 }
 
 local tall_paintings = {
@@ -42,10 +40,7 @@ local tall_paintings = {
 	"PAINT_34",
 	--big ones:
 	"PAINT_04",
-	"PAINT_05",
 	"PAINT_17",
-	"PAINT_21",
-	"PAINT_23",
 	"PAINT_35",
 }
 
@@ -67,18 +62,19 @@ local big_paintings = {
 	"PAINT_11",
 	"PAINT_13",
 	"PAINT_14",
-	"PAINT_26",
 }
 
 local sides = App.MapEditor().map.sidedefs
 
-for _, side in ipairs(sides) do
-	local prefix = string.sub(side.textureMiddle, 1, 5)
-	if side.sector.heightCeiling - side.sector.heightFloor == 64 and prefix == "PAINT" then
-		side:SetStringProperty("texturemiddle", small_paintings[math.random(#small_paintings)])
-	elseif side.line.length == 64 and prefix == "PAINT" then
-		side:SetStringProperty("texturemiddle", tall_paintings[math.random(#tall_paintings)])
-	elseif side.line.length == 96 and prefix == "PAINT" then
-		side:SetStringProperty("texturemiddle", big_paintings[math.random(#big_paintings)])
+function Execute(map)
+	for _, side in ipairs(sides) do
+		local prefix = string.sub(side.textureMiddle, 1, 5)
+		if side.sector.heightCeiling - side.sector.heightFloor == 64 and prefix == "PAINT" then
+			side:SetStringProperty("texturemiddle", small_paintings[math.random(#small_paintings)])
+		elseif side.line.length == 64 and prefix == "PAINT" then
+			side:SetStringProperty("texturemiddle", tall_paintings[math.random(#tall_paintings)])
+		elseif side.line.length == 96 and prefix == "PAINT" then
+			side:SetStringProperty("texturemiddle", big_paintings[math.random(#big_paintings)])
+		end
 	end
 end
