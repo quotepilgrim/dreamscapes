@@ -90,5 +90,18 @@ script "raise_nexus_door" (int tag) {
 	Scroll_Wall(tag, 0.0, 0.0, 0, 2);
 }
 
+script "fizzbuzz" (int start, int end) {
+	str output;
 
+	for (int i = start; i <= end; i++) {
+		output = "";
+		if (i % 3 == 0)
+			output = strParam(s: output, s:"Fizz");
+		if (i % 5 == 0)
+			output = strParam(s: output, s:"Buzz");
+		if (output == "")
+			output = strParam(d: i);
+		log(s: output);
+	}
+}
 
