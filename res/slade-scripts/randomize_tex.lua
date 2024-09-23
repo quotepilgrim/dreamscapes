@@ -1,5 +1,9 @@
 local small_paintings = {
 	"PAINT_19",
+	"PAINT_36",
+	"PAINT_37",
+	"PAINT_39",
+	"PAINT_43",
 	--tall ones:
 	"PAINT_10",
 	"PAINT_11",
@@ -8,17 +12,19 @@ local small_paintings = {
 	"PAINT_14",
 	"PAINT_15",
 	"PAINT_27",
+	"PAINT_24",
 	"PAINT_28",
 	"PAINT_30",
 	"PAINT_31",
+	"PAINT_38",
 	--big ones:
 	"PAINT_17",
+	"PAINT_48",
 }
 
 local tall_paintings = {
 	"PAINT_01",
 	"PAINT_03",
-	"PAINT_06",
 	"PAINT_09",
 	"PAINT_10",
 	"PAINT_11",
@@ -38,6 +44,8 @@ local tall_paintings = {
 	"PAINT_32",
 	"PAINT_33",
 	"PAINT_34",
+	"PAINT_41",
+	"PAINT_45",
 	--big ones:
 	"PAINT_04",
 	"PAINT_17",
@@ -57,6 +65,12 @@ local big_paintings = {
 	"PAINT_23",
 	"PAINT_25",
 	"PAINT_35",
+	"PAINT_40",
+	"PAINT_42",
+	"PAINT_44",
+	"PAINT_46",
+	"PAINT_47",
+	"PAINT_48",
 	--tall ones:
 	"PAINT_09",
 	"PAINT_11",
