@@ -127,28 +127,6 @@ conversation {
 				amount = 1;
 			}
 		}
-				
-		choice {
-			text = "$TXT_LOCKED";
-			special = 80;
-			arg0 = 2;
-			exclude {
-				item = "FlowShard";
-				amount = 1;
-			}
-		}
-
-		choice {
-			text = "$MSG_LOG_TITLE_7";
-			special = 80;
-			arg0 = 277;
-			arg1 = 0;
-			arg2 = 7;
-			require {
-				item = "FlowShard";
-				amount = 1;
-			}
-		}
 		
 		choice {
 			text = "$TXT_LOCKED";
@@ -168,6 +146,28 @@ conversation {
 			arg2 = 8;
 			require {
 				item = "ChaosShard";
+				amount = 1;
+			}
+		}
+				
+		choice {
+			text = "$TXT_LOCKED";
+			special = 80;
+			arg0 = 2;
+			exclude {
+				item = "FlowShard";
+				amount = 1;
+			}
+		}
+
+		choice {
+			text = "$MSG_LOG_TITLE_7";
+			special = 80;
+			arg0 = 277;
+			arg1 = 0;
+			arg2 = 7;
+			require {
+				item = "FlowShard";
 				amount = 1;
 			}
 		}
