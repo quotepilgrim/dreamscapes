@@ -1,3 +1,18 @@
+Class Torch: Actor {
+	Default {
+		Radius 16;
+		Height 56;
+		+SOLID
+	}
+	States {
+	Spawn:
+		TORC A 10;
+		TORC B 10;
+		TORC C 10;
+	}
+}
+
+
 class TreeA : Actor {
 	//$Group Decorations/Plants
 	Default {

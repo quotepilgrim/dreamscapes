@@ -4,6 +4,8 @@ local small_paintings = {
 	"PAINT_37",
 	"PAINT_39",
 	"PAINT_43",
+	"PAINT_49",
+	"PAINT_51",
 	--tall ones:
 	"PAINT_10",
 	"PAINT_11",
@@ -71,6 +73,7 @@ local big_paintings = {
 	"PAINT_46",
 	"PAINT_47",
 	"PAINT_48",
+	"PAINT_50",
 	--tall ones:
 	"PAINT_09",
 	"PAINT_11",

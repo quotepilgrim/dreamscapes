@@ -37,6 +37,7 @@ DoomEdNums {
 	40 = HeadSilhouette
 	41 = HeadWithEyes
 	42 = HeadWithTeeth
+	43 = Torch
 	99 = Target
 	//118 ZBridge
 }
