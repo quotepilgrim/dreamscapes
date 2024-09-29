@@ -38,6 +38,8 @@ DoomEdNums {
 	41 = HeadWithEyes
 	42 = HeadWithTeeth
 	43 = Torch
+	44 = Poppy
+	45 = Daisy
 	99 = Target
 	//118 ZBridge
 }

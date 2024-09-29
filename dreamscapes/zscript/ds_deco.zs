@@ -1,4 +1,31 @@
+Class Daisy: Actor {
+	//$Group Decorations/Plants
+	Default {
+		Radius 6;
+		Height 16;
+	}
+	States {
+	Spawn:
+		DAIS A -1;
+		Stop;
+	}
+}
+
+Class Poppy: Actor {
+	//$Group Decorations/Plants
+	Default {
+		Radius 6;
+		Height 16;
+	}
+	States {
+	Spawn:
+		POPP A -1;
+		Stop;
+	}
+}
+
 Class Torch: Actor {
+	//$Group Decorations/Other
 	Default {
 		Radius 16;
 		Height 56;
