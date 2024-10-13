@@ -1,5 +1,4 @@
-class DreamscapePlayer : PlayerPawn
-{
+class DreamscapePlayer : PlayerPawn {
 	Default
 	{
 		Speed 0.5;
@@ -26,7 +25,7 @@ class DreamscapePlayer : PlayerPawn
 		PLAY A -1;
 		Loop;
 	See:
-		PLAY ABCD 4;
+		PLAY ABCD 8;
 		Loop;
 	Missile:
 		PLAY A 12;

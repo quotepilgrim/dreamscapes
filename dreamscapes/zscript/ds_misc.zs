@@ -1,3 +1,39 @@
+class Dummy: Actor {
+	//$Group Misc
+	int wait;
+	Default {
+		Radius 10;
+		Height 56;
+		Speed 4;
+		Health 1;
+		+SOLID
+	}
+	States {
+		Spawn:
+			HOLE AB 20;
+			Loop;
+		See:
+			HOLE ABCD 5 A_Wander;
+			Loop;
+		Death:
+			HOLE A 1 A_Fall;
+			Stop;
+	}
+	override void Tick() {
+		super.Tick();
+		if (wait == 0) {
+			if (InStateSequence(self.curstate, self.ResolveState("Spawn"))) {
+				wait = random(120, 240);
+				SetStateLabel("See");
+			} else {
+				wait = random(80, 200);
+				SetStateLabel("Spawn");
+			}
+		}
+		wait -= 1;
+	}
+}
+
 class Chaser : Actor {
 	//$Group Misc
 	Default {

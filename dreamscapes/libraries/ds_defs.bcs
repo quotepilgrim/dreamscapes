@@ -41,6 +41,12 @@ str SHARDS[] = {
 };
 
 // functions
+int TestLineSight(int id) {
+	SetActorPosition(id, GetActorx(0), GetActorY(0),48.0, 0);
+	int tid = PickActor(id, GetActorAngle(0), GetActorPitch(0), 256.0, 0, MF_SHOOTABLE|MF_NOGRAVITY, ML_BLOCKSIGHT, PICKAF_RETURNTID);
+	return tid;
+}
+
 int CountShards() {
 	int count = 0;
 	foreach (let str shard; SHARDS) {
@@ -71,30 +77,3 @@ void UnsetEventFlag(int flag) {
 void ToggleEventFlag(int flag) {
 	bit_flags ^= flag;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
