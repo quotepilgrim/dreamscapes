@@ -211,8 +211,8 @@ class VineA : Actor {
 class Julia : Actor {
 	//$Group Decorations/Julia
 	Default {
-		Radius 8;
-		Height 28;
+		Radius 6;
+		Height 16;
 	}
 	States {
 	Spawn:
@@ -330,6 +330,21 @@ class Table : Actor {
 	Spawn:
 		TARG A 0;
 		TABL A -1;
+		Stop;
+	}
+}
+
+class Laptop : Actor {
+	//$Group Decorations/3D
+	Default {
+		radius 16;
+		height 20;
+		+SOLID
+	}
+	States {
+	Spawn:
+		TARG A 0;
+		LAPT A -1;
 		Stop;
 	}
 }

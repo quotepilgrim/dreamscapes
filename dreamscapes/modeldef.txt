@@ -1,7 +1,37 @@
 Model Table {
    Path "models"
    Model 0 "table.obj"
-   Scale 1.0 1.0 1.0
+   Scale 16.0 16.0 19.2
+   Skin 0 "textures/wood_a.png"
 
    Frame TABL A 1 "frame01"
 }
+
+Model Laptop {
+	Path "models"
+	Model 0 "laptop.obj"
+	Scale 16.0 16.0 16.0
+	Skin 0 "textures/laptop.png"
+	
+	Frame LAPT A 1 "frame01"
+}
+
+/*
+Model TreeF {
+	Path "models"
+	Model 0 "tref.obj"
+	Scale 16.0 16.0 19.2
+	Skin 0 "sprites/trefa0.png"
+	
+	Frame TREF A 1 "frame01"
+}
+
+Model TreeG {
+	Path "models"
+	Model 0 "treg.obj"
+	Scale 16.0 16.0 19.2
+	Skin 0 "sprites/trega0.png"
+	
+	Frame TREG A 1 "frame01"
+}
+*/

@@ -40,6 +40,8 @@ DoomEdNums {
 	43 = Torch
 	44 = Poppy
 	45 = Daisy
+	46 = Laptop
+	47 = Table
 	99 = Target
 	//118 ZBridge
 }
