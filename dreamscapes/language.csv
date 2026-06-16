@@ -41,7 +41,7 @@ MSG_EMBR_NAME,,,Ember Shard,Fragmento da Fagulha
 MSG_EMBR_GET,,,Feel its embrace.,Sinta seu abraço.
 MSG_EMBR_HELP,,, ,
 MSG_FLOW_NAME,,,Flow Shard,Fragmento do Fluxo
-MSG_FLOW_GET,,,You can get through these obstacles.,Você pode superar as barreiras.
+MSG_FLOW_GET,,,They won't hold you back.,Elas não te impedirão.
 MSG_FLOW_HELP,,,Lets you walk through fences.,Permite que você ande através de cercas.
 MSG_FLUD_NAME,,,Flood Shard,Fragmento da Enchente
 MSG_FLUD_GET,,,It cleanses the body and the soul.,Ela limpa a alma e o corpo.
@@ -62,10 +62,10 @@ MSG_VOID_NAME,,,Void Shard,Fragmento Vazio
 MSG_VOID_GET,,,You lost your words.,Você perdeu suas palavras.
 MSG_VOID_HELP,,, ,
 MSG_SHEL_NAME,,,Shell Shard,Fragmento da Casca
-MSG_SHEL_GET,,,You're hurt on the outside...,Você se feriu por fora...
+MSG_SHEL_GET,,,Feel your body.,Sinta seu corpo.
 MSG_SHEL_HELP,,, ,
 MSG_SOUL_NAME,,,Soul Shard,Fragmento da Alma
-MSG_SOUL_GET,,,... and the inside.,... e por dentro.
+MSG_SOUL_GET,,,Clear your mind.,Esvazie sua mente.
 MSG_SOUL_HELP,,, ,
 MSG_DOOR,,,A door has opened somewhere...,Uma porta se abriu em algum lugar...
 MSG_OUTSIDE,,,An exit has appeared outside.,Uma saída surgiu no lado de fora.
@@ -315,7 +315,7 @@ se tornou uma atividade fútil.
 MSG_LOG_TITLE_8,,,"March 19th, 2013","19 de março, 2013"
 MSG_LOG_8_1,,,"\n
 I woke up to the sound of a piano being played. As I got up and started
-following the sound I realized it came from my father’s bedroom. Soon
+following the sound I realized it came from my father's bedroom. Soon
 I found myself standing near the door which had been left ajar.
 \n\cu(1 out of 4)","\n
 Acordei ao som de um piano tocando. Ao me levantar e começar a seguir
@@ -325,7 +325,7 @@ o som, percebi que vinha do quarto de meu pai. Logo me encontrei frente
 MSG_LOG_8_2,,,"\n
 I gently pushed the door not to disturb him, and approached as quietly
 as I could, watching him play with his back turned to me. I regonized
-the piece he was playing as Satie’s Gnossiene No. 3, one of my favorites.
+the piece he was playing as Satie's Gnossiene No. 3, one of my favorites.
 \n\cu(2 out of 4)","\n
 Empurrei a porta com cuidado para não perturbá-lo, e me aproximei fazendo
 o menos barulho possível, assistindo-o tocar de costas para mim. Reconheci
@@ -334,7 +334,7 @@ a música que tocava como Gnossinene Nº 3, de Satie, uma de minhas favoritas.
 MSG_LOG_8_3,,,"\n
 When he was nearing the end of the piece, I rested my hand on his shoulder.
 He did not turn to me. ""Dad?"" I asked once in soft voice, and again when
-he didn’t respond. And then once more.
+he didn't respond. And then once more.
 \n\cu(3 out of 4)","\n
 Quando se aproximava o fim da música, pus minha mão sobre seu ombro.
 Ele não se virou para mim. ""Pai?"", perguntei uma vez em tom suave, e de novo
@@ -343,7 +343,7 @@ quando ele não respondeu. E então mais uma vez.
 MSG_LOG_8_4,,,"\n
 He began to turn to me, his movement slow as a sloth, and I could
 see his face. His mouth, as well as his eyes, had been sewn shut.
-I realized I hadn’t woken up.
+I realized I hadn't woken up.
 \n\cu(4 out of 4)","\n
 Ele começou a se virar para mim, lento como uma preguiça, e pude ver
 seu rosto. Sua boca, tal como seus olhos, haviam sido costurados.
