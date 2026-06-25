@@ -15,8 +15,8 @@ if [[ "$output" != *"Archive is current"* ]]; then
         echo "$new_version" > "$version_file"
         echo "Version updated to $new_version"
         zip -rFS ../dist/dreamscapes.ipk3 .
-	cp ../dist/dreamscapes.ipk3 /e/Games/maddy-dreamscapes/
-	cd /e/Games
+	cp ../dist/dreamscapes.ipk3 home/pilgrim/Games/maddy-dreamscapes/
+	cd home/pilgrim/Games
 	zip -rFS dreamscapes-win.zip maddy-dreamscapes
     else
         echo "Version file does not exist."

@@ -12,7 +12,7 @@ MAP_DREAM4,,,Sky,Céu
 MAP_DREAM5,,,Fun Guys,Caras Fungais
 MAP_DREAM6,,,Highway,Avenida
 MAP_DREAM7,,,Neon Corridors,Corredores de Neon
-MAP_DREAM8,,,,
+MAP_DREAM8,,,Cortex,Córtex
 MAP_DREAM9,,,,
 MAP_DREAM10,,,,
 MAP_DREAM11,,,,
@@ -39,34 +39,34 @@ MSG_METE_GET,,,You feel lighter.,Você se sente mais leve.
 MSG_METE_HELP,,,Makes you move faster when you're sleeping.,Faz com que você se mova mais rápido enquanto dorme.
 MSG_EMBR_NAME,,,Ember Shard,Fragmento da Fagulha
 MSG_EMBR_GET,,,Feel its embrace.,Sinta seu abraço.
-MSG_EMBR_HELP,,, ,
+MSG_EMBR_HELP,,,,
 MSG_FLOW_NAME,,,Flow Shard,Fragmento do Fluxo
 MSG_FLOW_GET,,,They won't hold you back.,Elas não te impedirão.
 MSG_FLOW_HELP,,,Lets you walk through fences.,Permite que você ande através de cercas.
 MSG_FLUD_NAME,,,Flood Shard,Fragmento da Enchente
 MSG_FLUD_GET,,,It cleanses the body and the soul.,Ela limpa a alma e o corpo.
-MSG_FLUD_HELP,,, ,
+MSG_FLUD_HELP,,,,
 MSG_CRYS_NAME,,,Crystal Shard,Fragmento de Cristal
 MSG_CRYS_GET,,,Things get clearer.,As coisas se esclarecem.
-MSG_CRYS_HELP,,, ,
+MSG_CRYS_HELP,,,,
 MSG_GRAV_NAME,,,Gravity Shard,Fragmento da Gravidade
 MSG_GRAV_GET,,,It is not the fall that hurts you.,Não é a queda que te machuca.
-MSG_GRAV_HELP,,, ,
+MSG_GRAV_HELP,,,,
 MSG_CHAO_NAME,,,Chaos Shard,Fragmento Caótico
 MSG_CHAO_GET,,,Focus.,Foque-se.
-MSG_CHAO_HELP,,, ,
+MSG_CHAO_HELP,,,,
 MSG_MATT_NAME,,,Matter Shard,Fragmento Material
 MSG_MATT_GET,,,Do they have inherent value?,Elas têm valor inerente?
-MSG_MATT_HELP,,, ,
+MSG_MATT_HELP,,,,
 MSG_VOID_NAME,,,Void Shard,Fragmento Vazio
 MSG_VOID_GET,,,You lost your words.,Você perdeu suas palavras.
-MSG_VOID_HELP,,, ,
+MSG_VOID_HELP,,,,
 MSG_SHEL_NAME,,,Shell Shard,Fragmento da Casca
 MSG_SHEL_GET,,,Feel your body.,Sinta seu corpo.
-MSG_SHEL_HELP,,, ,
+MSG_SHEL_HELP,,,,
 MSG_SOUL_NAME,,,Soul Shard,Fragmento da Alma
 MSG_SOUL_GET,,,Clear your mind.,Esvazie sua mente.
-MSG_SOUL_HELP,,, ,
+MSG_SOUL_HELP,,,,
 MSG_DOOR,,,A door has opened somewhere...,Uma porta se abriu em algum lugar...
 MSG_OUTSIDE,,,An exit has appeared outside.,Uma saída surgiu no lado de fora.
 MSG_ALL_SHARDS,,,This door can be opened once all shards have been found.,Todos os fragmentos devem ser encontrados para abrir esta porta.
@@ -74,9 +74,9 @@ MSG_STAR,,,The power of the star will let you through.,O poder da estrela a deix
 MSG_WONT_OPEN,,,I am not leaving.,Eu não pretendo sair.
 MSG_NEED_BOLT,,,It won't move without energy.,Não dá para mover sem energia.
 MSG_HELP,,,First time playing? Press F1 for help.,Primeira vez jogando? Pressione F1 para ajuda.
-MSG_PRESS,,,Press ,Pressione 
-MSG_TO_SLEEP,,, on the bed to sleep., na cama para dormir.
-MSG_TO_READ,,, to interact with laptop., para interagir com o laptop.
+MSG_PRESS,,,Press,Pressione
+MSG_TO_SLEEP,,,on the bed to sleep.,na cama para dormir.
+MSG_TO_READ,,,to interact with laptop.,para interagir com o laptop.
 MNU_RESUME,,,Resume,Continuar
 MNU_ENDGAME,,,Return to Title,Voltar ao início
 MNU_INFO,,,Help,Ajuda
@@ -99,7 +99,7 @@ TXT_HELP,,,"You are a girl named Madison.
   your closet in the dream world.
 
 * By being in posession of all 14 shards, you can open a mysterious door.
-  (Only 7 shards are available in this demo.)","Você é uma menina chamada Madison.
+  (Only 8 shards are available in this demo.)","Você é uma menina chamada Madison.
 
 * Interaja com o laptop (tecla ""E"" por padrão) para ler o seu diário.
 
@@ -118,7 +118,7 @@ TXT_HELP,,,"You are a girl named Madison.
   armário no mundo dos sonhos.
 
 * Estando em posse dos 14 fragmentos, você pode abrir uma porta misteriosa.
-  (Apenas 7 fragmentos podem ser encontrados neste demo.)"""
+  (Apenas 8 fragmentos podem ser encontrados neste demo.)"""
 TXT_HUD_HEALTH,,,Health:,Vida:
 TXT_HUD_SHARDS,,,Shards:,Fragmentos:
 TXT_DIARY,,,Diary,Diário
@@ -329,7 +329,7 @@ the piece he was playing as Satie's Gnossiene No. 3, one of my favorites.
 \n\cu(2 out of 4)","\n
 Empurrei a porta com cuidado para não perturbá-lo, e me aproximei fazendo
 o menos barulho possível, assistindo-o tocar de costas para mim. Reconheci
-a música que tocava como Gnossinene Nº 3, de Satie, uma de minhas favoritas.
+a música que tocava como Gnossinene No. 3, de Satie, uma de minhas favoritas.
 \n\cu(2 de 4)"
 MSG_LOG_8_3,,,"\n
 When he was nearing the end of the piece, I rested my hand on his shoulder.
