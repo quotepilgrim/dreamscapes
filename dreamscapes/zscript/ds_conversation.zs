@@ -47,7 +47,6 @@ Class DSConversationMenu : ConversationMenu {
 
         // Determine where the top of the reply list should be positioned.
         mYpos = MIN(140, 192 - mResponseLines.Size() * ReplyLineHeight);
-        i = mResponseLines.Size() * ReplyLineHeight;
 
         if (mSelection >= mResponses.Size()) {
             mSelection = mResponses.Size() - 1;
