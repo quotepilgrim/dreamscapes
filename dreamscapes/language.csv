@@ -74,9 +74,9 @@ MSG_STAR,,,The power of the star will let you through.,O poder da estrela a deix
 MSG_WONT_OPEN,,,I am not leaving.,Eu não pretendo sair.
 MSG_NEED_BOLT,,,It won't move without energy.,Não dá para mover sem energia.
 MSG_HELP,,,First time playing? Press F1 for help.,Primeira vez jogando? Pressione F1 para ajuda.
-MSG_PRESS,,,Press,Pressione
-MSG_TO_SLEEP,,,on the bed to sleep.,na cama para dormir.
-MSG_TO_READ,,,to interact with laptop.,para interagir com o laptop.
+MSG_PRESS,,,Press ,Pressione 
+MSG_TO_SLEEP,,, on the bed to sleep., na cama para dormir.
+MSG_TO_READ,,, to interact with laptop., para interagir com o laptop.
 MNU_RESUME,,,Resume,Continuar
 MNU_ENDGAME,,,Return to Title,Voltar ao início
 MNU_INFO,,,Help,Ajuda
