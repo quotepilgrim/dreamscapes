@@ -23,6 +23,7 @@ GameInfo
 	PlayerClasses = "DreamscapePlayer"
 	StatusbarClass = "DreamscapeHUD"
 	QuitMessages = "$QUITMSG"
+	Dialogue = "Diary.dlg"
 }
 
 Automap {

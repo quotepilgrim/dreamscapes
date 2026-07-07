@@ -328,7 +328,6 @@ class Table : Actor {
 	}
 	States {
 	Spawn:
-		TARG A 0;
 		TABL A -1;
 		Stop;
 	}
@@ -343,7 +342,6 @@ class Laptop : Actor {
 	}
 	States {
 	Spawn:
-		TARG A 0;
 		LAPT A -1;
 		Stop;
 	}

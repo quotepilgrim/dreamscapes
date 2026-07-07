@@ -15,7 +15,7 @@ script "dream_enter" ENTER {
 	}
 }
 
-script "die" DEATH {	
+script "die" DEATH {
 	foreach(let int i; let str shard; SHARDS) {
 		if (CheckInventory(shard)) {
 			HAS_SHARD[i] = 1;
@@ -23,7 +23,9 @@ script "die" DEATH {
 			HAS_SHARD[i] = 0;
 		}
 	}
-	delay(35*5);
+	Delay(35*5);
+	
+	UnsetEventFlag(GOT_NEXUS_ITEM);
 	ACS_NamedExecute("resurrect", 1);
 	Teleport_NewMap(1,0);
 }

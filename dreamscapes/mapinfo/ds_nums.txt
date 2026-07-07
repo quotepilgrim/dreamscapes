@@ -43,5 +43,6 @@ DoomEdNums {
 	46 = Laptop
 	47 = Table
 	99 = Target
+	100 = Chat
 	//118 ZBridge
 }

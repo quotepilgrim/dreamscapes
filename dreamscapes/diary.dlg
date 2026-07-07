@@ -2,7 +2,7 @@ namespace = "GZDoom";
 
 conversation {
 	id = 1;
-	actor = "Chaser";
+	actor = "Chat";
 	class = "DSConversationMenu";
 	
 	page {

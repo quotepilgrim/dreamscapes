@@ -6,7 +6,7 @@ class Dummy: Actor {
 		Height 56;
 		Speed 4;
 		Health 1;
-		+SOLID
+		+SOLID;
 	}
 	States {
 		Spawn:
@@ -53,6 +53,21 @@ class Chaser : Actor {
 		Goto See;
 	Death:
 		CHAS A 1 A_Fall;
+		Stop;
+	}
+}
+
+class Chat : Actor {
+	//$Group Misc
+	//$NotAngled
+	Default {
+		Radius 14;
+		Height 32;
+		+SOLID;
+	}
+	States {
+	Spawn:
+		CHAT A -1;
 		Stop;
 	}
 }

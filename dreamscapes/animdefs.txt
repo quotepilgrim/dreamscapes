@@ -10,19 +10,11 @@ texture bnoise_a
 texture bfall_a
 	range bfall_d tics 5
 
-texture notfirbl
-	pic notfirbl tics 5
-	pic notfirb2 tics 5
-	pic notfirb3 tics 5
-	pic notfirb2 tics 5
+texture notfirb2
+	range notfirbl tics 5 oscillate
 
 texture water_a
-	pic water_a tics 10
-	pic water_b tics 10
-	pic water_c tics 10
-	pic water_d tics 10
-	pic water_c tics 10
-	pic water_b tics 10
+	range water_d tics 10 oscillate
 
 switch sw_a1 on
 	sound switches/swon
