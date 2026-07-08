@@ -16,6 +16,7 @@ enum {
 	HELP_BED_SEEN	= 1 << 2,
 	GOT_NEXUS_ITEM	= 1 << 3,
 	HELP_LTOP_SEEN	= 1 << 4,
+	NEXUS_SECRET 	= 1 << 5,
 };
 
 //
