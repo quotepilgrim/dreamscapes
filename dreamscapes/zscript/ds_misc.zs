@@ -107,7 +107,9 @@ class Target : Actor {
 
 Class VersionPrinter : Thinker {
 	static void Print() {
-		Console.Printf(Wads.ReadLump(Wads.FindLump("version", 0)));
+		int versionIndex = Wads.FindLump("version", 0);
+		String versionNumber = Wads.ReadLump(versionIndex);
+		Console.Printf(versionNumber);
 	}
 }
 
