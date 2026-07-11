@@ -25,6 +25,9 @@ end
 	stopsound	doors/cd_end
 end
 
+:Silent
+end
+
 [ClosetDoor
 	Door 1
 	0 ClosetOpen

@@ -74,8 +74,8 @@ class Chat : Actor {
 
 class Blip : FakeInventory {
 	//$Group Misc
-	//$Icon powerup
-	//$Colour #FF4080
+	//$NotAngled
+	//$Sprite BLIPA0
 	Default {
 		Radius 16;
 		RENDERSTYLE "None";

@@ -232,21 +232,11 @@ class HeadSilhouette : Actor {
 	Spawn:
 		HEAD A -1;
 		Stop;
-	}
-}
-
-class HeadWithEyes : HeadSilhouette {
-	States {
-	Spawn:
-		HEDB A -1;
+	See:
+		HEAD B -1;
 		Stop;
-	}
-}
-
-class HeadWithTeeth : HeadSilhouette {
-	States {
-	Spawn:
-		HEDC A -1;
+	Smile:
+		HEAD C -1;
 		Stop;
 	}
 }

@@ -72,22 +72,24 @@ script "to_nexus" {
 script "raise_nexus_door" (int tag) {
 	int speed = 32;
 	fixed scrollspeed = FixedDiv((speed << 16), 8.0);
-	int amount = 152;
+	int amount = 156;
+	int wait = 140;
 
 	Scroll_Wall(tag, 0.0, scrollspeed, 0, 2);
 	Floor_RaiseByValue(tag, speed, amount);
 	SoundSequenceOnActor(tag,"DoorOpenNormal");
 	
-	TagWait(tag);
+	Delay(amount / (scrollspeed >> 16));
 	Scroll_Wall(tag, 0.0, 0.0, 0, 2);
 	
-	Delay(140);
+	Delay(wait);
 	Scroll_Wall(tag, 0.0, -scrollspeed, 0, 2);
 	Floor_LowerByValue(tag, speed, amount);
 	SoundSequenceOnActor(tag,"DoorCloseNormal");
 	
-	TagWait(tag);
+	Delay(amount / (scrollspeed >> 16));
 	Scroll_Wall(tag, 0.0, 0.0, 0, 2);
+	Line_SetTextureOffset(tag, NO_CHANGE, 0.0, SIDE_FRONT, TEXFLAG_MIDDLE);
 }
 
 script "fizzbuzz" (int start, int end) {
