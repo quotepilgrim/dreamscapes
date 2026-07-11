@@ -17,7 +17,8 @@ if [[ "$output" != *"Archive is current"* ]]; then
         zip -rFS ../dist/dreamscapes.ipk3 .
         cp ../dist/dreamscapes.ipk3 /home/pilgrim/Games/maddy-dreamscapes/
         cd /home/pilgrim/Games
-        zip -rFS dreamscapes-win.zip maddy-dreamscapes -x maddy-dreamscapes/Saves/*
+        rm -rf maddy-dreamscapes/Save/Dreamscapes
+        zip -rFS dreamscapes-win.zip maddy-dreamscapes
     else
         echo "Version file does not exist."
     fi
