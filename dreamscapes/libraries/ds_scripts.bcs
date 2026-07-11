@@ -107,3 +107,7 @@ script "fizzbuzz" (int start, int end) {
 	}
 }
 
+script "version" {
+	ScriptCall("VersionPrinter", "Print");
+}
+

@@ -104,3 +104,35 @@ class Target : Actor {
 		Stop;
 	}
 }
+
+Class VersionPrinter : Thinker {
+	static void Print() {
+		Console.Printf(Wads.ReadLump(Wads.FindLump("version", 0)));
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
