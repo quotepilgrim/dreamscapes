@@ -105,36 +105,10 @@ class Target : Actor {
 	}
 }
 
-Class VersionPrinter : Thinker {
+Class VersionPrinter {
 	static void Print() {
 		int versionIndex = Wads.FindLump("version", 0);
 		String versionNumber = Wads.ReadLump(versionIndex);
 		Console.Printf(versionNumber);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
