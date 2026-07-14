@@ -94,8 +94,8 @@ class CresBoltFlud : Inventory {
 class Target : Actor {
 	//$Group Decorations/Plants
 	Default {
-		Radius 16;
-		Height 32;
+		Radius 8;
+		Height 16;
 		+NOGRAVITY
 	}
 	States {

@@ -1,8 +1,8 @@
 class SpeedUp : PowerupGiver {
 	Default {
 		Inventory.MaxAmount 0;
-		Powerup.Duration 0x7FFFFFFF;
-		powerup.type "PowerSpeed";
+		Powerup.Duration 0x7FFFFFFD;
+		Powerup.type "PowerSpeed";
 		+INVENTORY.AUTOACTIVATE;
 		+INVENTORY.ALWAYSPICKUP;
 	}

@@ -43,8 +43,13 @@ str SHARDS[] = {
 
 // functions
 int TestLineSight(int id) {
-	SetActorPosition(id, GetActorx(0), GetActorY(0),46.0, 0);
-	int tid = PickActor(id, GetActorAngle(0), GetActorPitch(0), 256.0, 0, MF_SHOOTABLE|MF_NOGRAVITY, ML_BLOCKSIGHT, PICKAF_RETURNTID);
+	fixed x = GetActorX(0);
+	fixed y = GetActorY(0);
+	fixed angle = GetActorAngle(0);
+	fixed pitch = GetActorPitch(0);
+	
+	SetActorPosition(id, x, y, 48.0, 0);
+	int tid = PickActor(id, angle, pitch, 256.0, 0, MF_SHOOTABLE|MF_NOGRAVITY, ML_BLOCKSIGHT, PICKAF_RETURNTID);
 	return tid;
 }
 

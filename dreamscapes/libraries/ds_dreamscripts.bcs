@@ -15,6 +15,32 @@ script "dream_enter" ENTER {
 	}
 }
 
+script "raise_nexus_door" (int tag) {
+	int speed = 32;
+	int amount = 156;
+	int stay_open = 140;
+	
+	fixed scroll_speed = FixedDiv((speed << 16), 8.0);
+	int scroll_time = amount / (scroll_speed >> 16);
+
+	Scroll_Wall(tag, 0.0, scroll_speed, 0, 2);
+	Floor_RaiseByValue(tag, speed, amount);
+	SoundSequenceOnActor(tag,"DoorOpenNormal");
+	
+	Delay(scroll_time);
+	Scroll_Wall(tag, 0.0, 0.0, 0, 2);
+	Line_SetTextureOffset(tag, NO_CHANGE, amount << 16, SIDE_FRONT, TEXFLAG_MIDDLE);
+	
+	Delay(stay_open);
+	Scroll_Wall(tag, 0.0, -scroll_speed, 0, 2);
+	Floor_LowerByValue(tag, speed, amount);
+	SoundSequenceOnActor(tag,"DoorCloseNormal");
+	
+	Delay(scroll_time);
+	Scroll_Wall(tag, 0.0, 0.0, 0, 2);
+	Line_SetTextureOffset(tag, NO_CHANGE, 0.0, SIDE_FRONT, TEXFLAG_MIDDLE);
+}
+
 script "die" DEATH {
 	foreach(let int i; let str shard; SHARDS) {
 		if (CheckInventory(shard)) {

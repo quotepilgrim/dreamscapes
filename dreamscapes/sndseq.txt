@@ -26,6 +26,7 @@ end
 end
 
 :Silent
+	platform 1
 end
 
 [ClosetDoor
