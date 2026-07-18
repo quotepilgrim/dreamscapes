@@ -75,7 +75,7 @@ class Chat : Actor {
 class Blip : FakeInventory {
 	//$Group Misc
 	//$NotAngled
-	//$Sprite BLIPA0
+	//$Sprite blipa0
 	Default {
 		Radius 16;
 		RENDERSTYLE "None";

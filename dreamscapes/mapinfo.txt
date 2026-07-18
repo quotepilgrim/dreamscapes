@@ -60,7 +60,7 @@ Map "START" "" {
 
 Map "DEBUG" "$MAP_DEBUG" {
 	LevelNum = 0
-	Music = "music/bedroom.mid"
+	Music = "music/faded.mid"
 	Cluster = 3
 }
 
