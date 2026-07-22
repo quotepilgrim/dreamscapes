@@ -3,6 +3,8 @@
 #import "ds_defs.bcs"
 
 script SHARD_PICKUP {
+	if (GetCVar("debug")) log(s:"shard script");
+
 	if (!CheckEventFlag(GOT_SHARD)) {
 		SetEventFlag(GOT_SHARD);
 		SetLineSpecial(277, Teleport_NewMap, 1, 0, 0);

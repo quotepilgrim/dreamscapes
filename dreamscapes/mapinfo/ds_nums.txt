@@ -35,8 +35,8 @@ DoomEdNums {
 	38 = TreeG
 	39 = TreeH
 	40 = HeadSilhouette
-	//41 =
-	//42 =
+	//41
+	//42
 	43 = Torch
 	44 = Poppy
 	45 = Daisy

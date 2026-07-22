@@ -27,6 +27,7 @@ Class ShardCount : Inventory {
 }
 
 class CrescentShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "CRESA0";
 		Inventory.PickupMessage "$MSG_CRES_GET";
@@ -39,6 +40,7 @@ class CrescentShard : Shard {
 }
 
 class StarShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "STARA0";
 		Inventory.PickupMessage "$MSG_STAR_GET";
@@ -52,6 +54,7 @@ class StarShard : Shard {
 }
 
 class LightningShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "BOLTA0";
 		Inventory.PickupMessage "$MSG_BOLT_GET";
@@ -64,6 +67,7 @@ class LightningShard : Shard {
 }
 
 class MeteorShard: Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "METEA0";
 		Inventory.PickupMessage "$MSG_METE_GET";
@@ -76,6 +80,7 @@ class MeteorShard: Shard {
 }
 
 class EmberShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "EMBRA0";
 		Inventory.PickupMessage "$MSG_EMBR_GET";
@@ -88,6 +93,7 @@ class EmberShard : Shard {
 }
 
 class FlowShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "FLOWA0";
 		Inventory.PickupMessage "$MSG_FLOW_GET";
@@ -100,6 +106,7 @@ class FlowShard : Shard {
 }
 
 class FloodShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "FLUDA0";
 		Inventory.PickupMessage "$MSG_FLUD_GET";
@@ -112,6 +119,7 @@ class FloodShard : Shard {
 }
 
 class CrystalShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "CRYSA0";
 		Inventory.PickupMessage "$MSG_CRYS_GET";
@@ -124,6 +132,7 @@ class CrystalShard : Shard {
 }
 
 class ChaosShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "CHAOA0";
 		Inventory.PickupMessage "$MSG_CHAO_GET";
@@ -136,6 +145,7 @@ class ChaosShard : Shard {
 }
 
 class GravityShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "GRAVA0";
 		Inventory.PickupMessage "$MSG_GRAV_GET";
@@ -148,6 +158,7 @@ class GravityShard : Shard {
 }
 
 class MatterShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "MATTA0";
 		Inventory.PickupMessage "$MSG_MATT_GET";
@@ -160,6 +171,7 @@ class MatterShard : Shard {
 }
 
 class VoidShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "VOIDA0";
 		Inventory.PickupMessage "$MSG_VOID_GET";
@@ -172,6 +184,7 @@ class VoidShard : Shard {
 }
 
 class SoulShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "SOULA0";
 		Inventory.PickupMessage "$MSG_SOUL_GET";
@@ -184,6 +197,7 @@ class SoulShard : Shard {
 }
 
 class ShellShard : Shard {
+	//$NotAngled
 	Default {
 		Inventory.Icon "SHELA0";
 		Inventory.PickupMessage "$MSG_SHEL_GET";
